@@ -1,0 +1,13 @@
+Source: ircd-ratbox
+Section: unknown
+Priority: extra
+Maintainer: Chase Pettet <cpettet@wikimedia.org>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev
+Standards-Version: 3.9.2
+Homepage: http://ratbox.org
+
+Package: ircd-ratbox
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: ircd-ratbox is an advanced, stable and fast ircd.
+ Wikimedia user read-only irc for edit events broadcasting.
