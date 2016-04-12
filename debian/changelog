@@ -1,3 +1,13 @@
+ircd-ratbox (2.2.9-3) jessie-wikimedia; urgency=medium
+
+  * Declare a package conflict with whois: ircd-ratbox ships
+    /usr/bin/mkpasswd (same as whois). The same is already true for
+    the ircd-ratbox package used on argon. If ircd-ratbox were still
+    in the Debian archive, the proper way would be to rename the
+    binary, but in this case simply conflicting with whois is also fine.
+
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Tue, 12 Apr 2016 13:26:31 +0200
+
 ircd-ratbox (2.2.9-2) jessie-wikimedia; urgency=medium
 
   * Rebuild for jessie (Bug: T132427)

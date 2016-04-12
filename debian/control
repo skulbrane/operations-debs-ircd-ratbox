@@ -9,5 +9,6 @@ Homepage: http://ratbox.org
 Package: ircd-ratbox
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: whois
 Description: ircd-ratbox is an advanced, stable and fast ircd.
  Wikimedia user read-only irc for edit events broadcasting.
