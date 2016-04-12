@@ -2,7 +2,7 @@ Source: ircd-ratbox
 Section: unknown
 Priority: extra
 Maintainer: Chase Pettet <cpettet@wikimedia.org>
-Build-Depends: debhelper (>= 8.0.0), autotools-dev
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, bison, flex
 Standards-Version: 3.9.2
 Homepage: http://ratbox.org
 

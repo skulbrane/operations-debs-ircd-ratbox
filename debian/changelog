@@ -1,3 +1,10 @@
+ircd-ratbox (2.2.9-2) jessie-wikimedia; urgency=medium
+
+  * Rebuild for jessie (Bug: T132427)
+  * Add missing build-dependencies on bison and flex
+
+ -- Moritz Muehlenhoff <mmuhlenhoff@wikimedia.org>  Tue, 12 Apr 2016 11:25:51 +0200
+
 ircd-ratbox (2.2.9-1wm1) main; distribution=precise-wikimedia urgency=low
 
     * Initial release of Wikimedia broadcast only ircd
